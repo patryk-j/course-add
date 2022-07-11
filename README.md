@@ -45,7 +45,7 @@ The course creator application uses VARK to make it easier for students and teac
 
 ## Getting started
 
-If you want, you can test the course creator application at the link: or just clone the repository, install and run the application (instructions below).
+If you want, you can test the course creator application at the link: https://course-app-fb4f5.web.app or just clone the repository, install and run the application (instructions below).
 The first thing you need to do is register as a new user, without this you will not be able to access the functionality of the site. The form is validated with the username and password. The next step is to complete the required survey which will determine the VARK preference. After logging in, you can use the available courses or, if you are the authorized person, create your own course.
 
 ## Installation
