@@ -53,7 +53,7 @@ The first thing you need to do is register as a new user, without this you will 
 1. Clone repository
 
     ```txt
-    git clone https://github.com/dan-ch/LuftBnBUi
+    git clone https://github.com/patryk-j/course-creator/
     ```
 
 2. Install requierd packages using npm:
