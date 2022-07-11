@@ -1,46 +1,75 @@
-# Getting Started with Create React App
+# `Course creator`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![coursepage](https://firebasestorage.googleapis.com/v0/b/course-app-fb4f5.appspot.com/o/courses.PNG?alt=media&token=8a6dd8cb-c219-4061-a899-0de67f6ddd33)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Course creator is a front-end application that allows you to create courses based on VARK teaching strategies - a questionnaire that helps your learning by suggesting the strategies you should be using (more detailed description below). After registering, each user has to fill in a questionnaire consisting of sixteen questions to define preferences. Thanks to this, the user knows which preference is his dominant, which is important, because the lessons displayed in the course will be matched to the teaching style defined after completing the survey. However, if the user finds that the content of the chosen teaching style does not suit him, there is a quiz inside the course, in which, after giving the wrong answer, the user gets the option to change preferences. As you change your preferences, the lesson content will change to suit your teaching style as much as possible
 
-### `npm start`
+## VARK
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Neil Fleming introduced an VARK inventory in 1987 that was designed to help students and others learn more about their individual learning preferences.  According to the VARK model, learners are identified by whether they have a preference for:
+- Visual learning (pictures, movies, diagrams)
+- Auditory learning (music, discussion, lectures)
+- Reading and writing (making lists, reading textbooks, taking notes)
+- Kinesthetic learning (movement, experiments, hands-on activities)
+The course creator application uses VARK to make it easier for students and teachers to create and learn in accordance with these principles so that learning is as effective as possible
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- User registration
+- VARK questionnaire 
+- Profile with VARK preferences description
+- Profile edit (username and password)
+- Authentication using Firebase Authentication
+- Creating and deleting courses
+- List of courses
+- Validation of forms and data
+- Adding and deleting lessons
+- Quiz with the ability to change preferences
+- HTML editor
 
-### `npm run build`
+## Built with
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React.js](https://pl.reactjs.org/) ^18.0.0
+- [TypeScript](https://www.typescriptlang.org/) ^4.6.3
+- [react-router](https://reactrouter.com/) ^6.3.0
+- [Redux](https://redux.js.org/) ^4.1.2
+- [Material UI](https://mui.com/) ^5.6.1
+- [Formik](https://formik.org/) ^2.2.9
+- [Firebase](https://firebase.google.com/) ^9.6.11
+- [Node](https://nodejs.org/en/) ^16.11.27
+- [yup](https://www.npmjs.com/package/yup) ^0.32.11
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting started
 
-### `npm run eject`
+If you want, you can test the course creator application at the link: or just clone the repository, install and run the application (instructions below).
+The first thing you need to do is register as a new user, without this you will not be able to access the functionality of the site. The form is validated with the username and password. The next step is to complete the required survey which will determine the VARK preference. After logging in, you can use the available courses or, if you are the authorized person, create your own course.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    ```txt
+    git clone https://github.com/dan-ch/LuftBnBUi
+    ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2. Install requierd packages using npm:
 
-## Learn More
+    ```txt
+    npm install
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run the application simply paste and run the following command:
+
+```txt
+    npm start
+```
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt`
